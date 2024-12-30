@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0491C9932D20E48800865CBF /* NoResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491C9922D20E48800865CBF /* NoResultView.swift */; };
+		0491C99A2D22464E00865CBF /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491C9992D22464E00865CBF /* CardDetailView.swift */; };
+		049628782D1C267A00B5DFC2 /* UserCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049628772D1C267A00B5DFC2 /* UserCard.swift */; };
+		0496287A2D1C26EC00B5DFC2 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049628792D1C26EC00B5DFC2 /* HomeScreen.swift */; };
+		0496287C2D1C316700B5DFC2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496287B2D1C316700B5DFC2 /* HomeViewModel.swift */; };
+		0496287E2D1C349D00B5DFC2 /* UserCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496287D2D1C349D00B5DFC2 /* UserCardView.swift */; };
+		049D69172D1D90B4002D818D /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D69162D1D90B4002D818D /* RoundButton.swift */; };
+		049D69192D1D94BF002D818D /* View_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D69182D1D94BF002D818D /* View_Extension.swift */; };
+		049D691B2D1D9A95002D818D /* CardContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D691A2D1D9A95002D818D /* CardContainerView.swift */; };
+		04BB92662D19961B007ED2E6 /* TantanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB92652D19961B007ED2E6 /* TantanApp.swift */; };
+		04BB92682D19961B007ED2E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB92672D19961B007ED2E6 /* ContentView.swift */; };
+		04BB926A2D19961D007ED2E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BB92692D19961D007ED2E6 /* Assets.xcassets */; };
+		04BB926D2D19961D007ED2E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BB926C2D19961D007ED2E6 /* Preview Assets.xcassets */; };
+		04BB92742D19A334007ED2E6 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB92732D19A334007ED2E6 /* AppState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0491C9922D20E48800865CBF /* NoResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoResultView.swift; sourceTree = "<group>"; };
+		0491C9992D22464E00865CBF /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		049628772D1C267A00B5DFC2 /* UserCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCard.swift; sourceTree = "<group>"; };
+		049628792D1C26EC00B5DFC2 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		0496287B2D1C316700B5DFC2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		0496287D2D1C349D00B5DFC2 /* UserCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCardView.swift; sourceTree = "<group>"; };
+		049D69162D1D90B4002D818D /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		049D69182D1D94BF002D818D /* View_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Extension.swift; sourceTree = "<group>"; };
+		049D691A2D1D9A95002D818D /* CardContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContainerView.swift; sourceTree = "<group>"; };
+		04BB92622D19961B007ED2E6 /* Tantan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tantan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BB92652D19961B007ED2E6 /* TantanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TantanApp.swift; sourceTree = "<group>"; };
+		04BB92672D19961B007ED2E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04BB92692D19961D007ED2E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BB926C2D19961D007ED2E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04BB92732D19A334007ED2E6 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BB925F2D19961B007ED2E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0491C9942D22425B00865CBF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0491C9952D22426C00865CBF /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0491C9952D22426C00865CBF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				049628792D1C26EC00B5DFC2 /* HomeScreen.swift */,
+				0496287B2D1C316700B5DFC2 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0491C9962D22428B00865CBF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				049D69182D1D94BF002D818D /* View_Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0491C9972D2242BF00865CBF /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				0496287D2D1C349D00B5DFC2 /* UserCardView.swift */,
+				049D69162D1D90B4002D818D /* RoundButton.swift */,
+				049D691A2D1D9A95002D818D /* CardContainerView.swift */,
+				0491C9922D20E48800865CBF /* NoResultView.swift */,
+				0491C9992D22464E00865CBF /* CardDetailView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		0491C9982D2242E300865CBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				049628772D1C267A00B5DFC2 /* UserCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04BB92592D19961B007ED2E6 = {
+			isa = PBXGroup;
+			children = (
+				04BB92642D19961B007ED2E6 /* Tantan */,
+				04BB92632D19961B007ED2E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04BB92632D19961B007ED2E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BB92622D19961B007ED2E6 /* Tantan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BB92642D19961B007ED2E6 /* Tantan */ = {
+			isa = PBXGroup;
+			children = (
+				0491C9982D2242E300865CBF /* Model */,
+				0491C9972D2242BF00865CBF /* Component */,
+				0491C9962D22428B00865CBF /* Extension */,
+				0491C9942D22425B00865CBF /* Core */,
+				04BB92652D19961B007ED2E6 /* TantanApp.swift */,
+				04BB92672D19961B007ED2E6 /* ContentView.swift */,
+				04BB92692D19961D007ED2E6 /* Assets.xcassets */,
+				04BB926B2D19961D007ED2E6 /* Preview Content */,
+				04BB92732D19A334007ED2E6 /* AppState.swift */,
+			);
+			path = Tantan;
+			sourceTree = "<group>";
+		};
+		04BB926B2D19961D007ED2E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04BB926C2D19961D007ED2E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BB92612D19961B007ED2E6 /* Tantan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BB92702D19961D007ED2E6 /* Build configuration list for PBXNativeTarget "Tantan" */;
+			buildPhases = (
+				04BB925E2D19961B007ED2E6 /* Sources */,
+				04BB925F2D19961B007ED2E6 /* Frameworks */,
+				04BB92602D19961B007ED2E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tantan;
+			productName = Tantan;
+			productReference = 04BB92622D19961B007ED2E6 /* Tantan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BB925A2D19961B007ED2E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					04BB92612D19961B007ED2E6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 04BB925D2D19961B007ED2E6 /* Build configuration list for PBXProject "Tantan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BB92592D19961B007ED2E6;
+			productRefGroup = 04BB92632D19961B007ED2E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BB92612D19961B007ED2E6 /* Tantan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BB92602D19961B007ED2E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BB926D2D19961D007ED2E6 /* Preview Assets.xcassets in Resources */,
+				04BB926A2D19961D007ED2E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BB925E2D19961B007ED2E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049D69172D1D90B4002D818D /* RoundButton.swift in Sources */,
+				04BB92742D19A334007ED2E6 /* AppState.swift in Sources */,
+				049D691B2D1D9A95002D818D /* CardContainerView.swift in Sources */,
+				0491C99A2D22464E00865CBF /* CardDetailView.swift in Sources */,
+				0496287C2D1C316700B5DFC2 /* HomeViewModel.swift in Sources */,
+				0496287A2D1C26EC00B5DFC2 /* HomeScreen.swift in Sources */,
+				04BB92682D19961B007ED2E6 /* ContentView.swift in Sources */,
+				049628782D1C267A00B5DFC2 /* UserCard.swift in Sources */,
+				0491C9932D20E48800865CBF /* NoResultView.swift in Sources */,
+				049D69192D1D94BF002D818D /* View_Extension.swift in Sources */,
+				04BB92662D19961B007ED2E6 /* TantanApp.swift in Sources */,
+				0496287E2D1C349D00B5DFC2 /* UserCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04BB926E2D19961D007ED2E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04BB926F2D19961D007ED2E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BB92712D19961D007ED2E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tantan/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZX4W9M4RE;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghua.qin.Tantan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04BB92722D19961D007ED2E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tantan/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZX4W9M4RE;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghua.qin.Tantan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BB925D2D19961B007ED2E6 /* Build configuration list for PBXProject "Tantan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BB926E2D19961D007ED2E6 /* Debug */,
+				04BB926F2D19961D007ED2E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BB92702D19961D007ED2E6 /* Build configuration list for PBXNativeTarget "Tantan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BB92712D19961D007ED2E6 /* Debug */,
+				04BB92722D19961D007ED2E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BB925A2D19961B007ED2E6 /* Project object */;
+}
